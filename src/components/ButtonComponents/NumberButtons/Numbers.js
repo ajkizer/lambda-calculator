@@ -9,7 +9,7 @@ const Numbers = () => {
   return (
     <div>
       {numbers.map(number => (
-        <NumberButton text={number} />
+        <NumberButton text={number} key={number} />
       ))}
     </div>
   );
